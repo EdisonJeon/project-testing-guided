@@ -43,6 +43,11 @@ test("when user fills all fields and submits, species appears", async () => {
 
   // ASSERT:
   /*
+    EXAMPLES OF SOME ASSERTIONS WITH JEST =>
+        expect(element).toBeTruthy();
+        expect(element).toBeInTheDocument();
+        expect(element).toBeVisible();
+
     PROMISE => 
         const speciesFeedbackPromise = screen.findByText(species);
         speciesFeedbackPromise
