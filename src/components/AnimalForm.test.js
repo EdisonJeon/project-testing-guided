@@ -47,6 +47,7 @@ test("when user fills all fields and submits, species appears", async () => {
         expect(element).toBeTruthy();
         expect(element).toBeInTheDocument();
         expect(element).toBeVisible();
+        expect(element).not.toHaveTextContent('something')
 
     PROMISE => 
         const speciesFeedbackPromise = screen.findByText(species);
